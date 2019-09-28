@@ -9,7 +9,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
-import { rhythm } from "../utils/typography"
+import { rhythm, pink, turqouise } from "../utils/typography"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -56,11 +56,11 @@ const Bio = () => {
       <p>
         Written by <strong>{author}</strong>, a Mexican software Engineer based in Berlin. I like makeup, baking, ballet workouts, and coding.
         <br />
-        <a href={`https://twitter.com/${social.twitter}`}>
+        <a style={{ color: pink }} href={`https://twitter.com/${social.twitter}`}>
           Twitter
         </a>
         {` `}|{` `}
-        <a href={`https://instagram.com/${social.instagram}`}>
+        <a style={{ color: pink }} href={`https://instagram.com/${social.instagram}`}>
           Instagram
         </a>
       </p>

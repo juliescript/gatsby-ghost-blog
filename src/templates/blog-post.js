@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import { rhythm, scale, pink } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -24,6 +24,7 @@ class BlogPostTemplate extends React.Component {
               style={{
                 marginTop: rhythm(1),
                 marginBottom: 0,
+                color: pink
               }}
             >
               {post.frontmatter.title}
