@@ -9,14 +9,14 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
-import { rhythm, pink, turqouise } from "../utils/typography"
+import { rhythm, pink } from "../utils/typography"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 90, height: 90) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -26,6 +26,7 @@ const Bio = () => {
           author
           social {
             twitter
+            instagram
           }
         }
       }
@@ -46,7 +47,7 @@ const Bio = () => {
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
-          minWidth: 50,
+          minWidth: 90,
           borderRadius: `100%`,
         }}
         imgStyle={{
@@ -56,11 +57,11 @@ const Bio = () => {
       <p>
         Written by <strong>{author}</strong>, a Mexican software Engineer based in Berlin. I like makeup, baking, ballet workouts, and coding.
         <br />
-        <a style={{ color: pink }} href={`https://twitter.com/${social.twitter}`}>
+        <a style={{ color: pink }} target="_blank" rel="noopener noreferrer" href={`https://twitter.com/${social.twitter}`}>
           Twitter
         </a>
         {` `}|{` `}
-        <a style={{ color: pink }} href={`https://instagram.com/${social.instagram}`}>
+        <a style={{ color: pink }} target="_blank" rel="noopener noreferrer" href={`https://instagram.com/${social.instagram}`}>
           Instagram
         </a>
       </p>

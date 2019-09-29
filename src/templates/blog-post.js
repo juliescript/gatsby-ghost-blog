@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale, pink } from "../utils/typography"
+import { rhythm, scale, pink, turqouise } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -24,7 +24,8 @@ class BlogPostTemplate extends React.Component {
               style={{
                 marginTop: rhythm(1),
                 marginBottom: 0,
-                color: pink
+                color: pink,
+                fontFamily: `Merriweather, Gerogia, serif`
               }}
             >
               {post.frontmatter.title}
@@ -62,14 +63,14 @@ class BlogPostTemplate extends React.Component {
           >
             <li>
               {previous && (
-                <Link to={previous.fields.slug} rel="prev">
+                <Link style={{ color: turqouise }} to={previous.fields.slug} rel="prev">
                   ← {previous.frontmatter.title}
                 </Link>
               )}
             </li>
             <li>
               {next && (
-                <Link to={next.fields.slug} rel="next">
+                <Link style={{ color: turqouise }} to={next.fields.slug} rel="next">
                   {next.frontmatter.title} →
                 </Link>
               )}
