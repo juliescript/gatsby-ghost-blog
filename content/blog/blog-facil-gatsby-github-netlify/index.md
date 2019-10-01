@@ -24,7 +24,7 @@ Vamos a comenzar a construir esto de manera local. Me gusta mucho hacerlo todo l
 
 Para usar [GatsbyJS](https://www.gatsbyjs.org/) hay que instalar su interfaz de línea de comando o CLI, por sus siglas en inglés. Esto es bien sencillo de hacer en npm:
 
-```
+```shell
 npm install -g gatsby-cli
 ```
 
@@ -34,7 +34,7 @@ La `-g`en este caso significa global y se usa para instalar herramientas que se 
 
 Empezar un proyecto nuevo es también cuestión de una línea de comando. En el fólder donde quieres guardar tu proyecto escribes:
 
-```
+```shell
 gatsby new <nombre-de-tu-proyecto>
 ```
 
@@ -42,7 +42,7 @@ Por supuesto que tienes que sustituir el `<nombre-de-tu-proyecto>` por el nombre
 
 Después de esto puedes cambiarte al directorio del proyecto y empezar a desarrollar con el siguiente comando:
 
-```
+```shell
 cd <nombre-de-tu-proyecto>
 gatsby develop
 ```
@@ -59,7 +59,7 @@ Para este sitio usé la plantilla de blog que se encuentra en [este repositorio]
 
 Instalarla necesita sólo un comando. En lugar de escribir `gatsby new`, el comando es el siguiente:
 
-```
+```shell
 # create a new Gatsby site using the blog starter
 gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
 ```
@@ -75,7 +75,7 @@ Claro que la ventaja de hacer el tuyo propio es poderle poner lo que quieras, pe
 ## La estructura del proyecto
 
 El proyecto viene dividido en varias partes, las que voy a mencionar en esta entrada son:
-```
+```md
  - content
 	 - assets
 	 - blog
@@ -112,7 +112,7 @@ La buena noticia es que es posible sobrescribir los estilos. En el archivo de `t
 
 Ahí se encuentra un objeto que se ve algo así: 
 
-```
+```js
 Wordpress2016.overrideThemeStyles  =  ()  => {
 	return {
 		"a.gatsby-resp-image-link": {
@@ -132,7 +132,7 @@ Por default, Gatsby viene con `git` integrado. Así que puedes crear un reposito
 
 Esto se hace con los siguientes comandos:
 
-```
+```shell
 git remote add origin <dirección del repo>
 git push -u origin master
 ```
