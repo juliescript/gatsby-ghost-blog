@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "author": "Julieta Campos <julieicelie@gmail.com>",
   "dependencies": {
-<<<<<<< HEAD
     "gatsby": "^2.23.3",
     "gatsby-image": "^2.4.7",
     "gatsby-plugin-manifest": "^2.4.11",
@@ -21,32 +20,6 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "tailwindcss": "^1.4.6"
-=======
-    "@material-ui/styles": "^4.5.0",
-    "gatsby": "^2.15.28",
-    "gatsby-image": "^2.2.23",
-    "gatsby-plugin-feed": "^2.3.15",
-    "gatsby-plugin-google-analytics": "^2.1.19",
-    "gatsby-plugin-manifest": "^2.2.20",
-    "gatsby-plugin-offline": "^3.0.11",
-    "gatsby-plugin-react-helmet": "^3.1.10",
-    "gatsby-plugin-sass": "^2.1.17",
-    "gatsby-plugin-sharp": "^2.2.27",
-    "gatsby-remark-copy-linked-files": "^2.1.23",
-    "gatsby-remark-images": "^3.1.25",
-    "gatsby-remark-prismjs": "^3.3.16",
-    "gatsby-remark-responsive-iframe": "^2.2.20",
-    "gatsby-remark-smartypants": "^2.1.11",
-    "gatsby-source-filesystem": "^2.1.28",
-    "gatsby-transformer-remark": "^2.6.26",
-    "gatsby-transformer-sharp": "^2.2.19",
-    "node-sass": "^4.12.0",
-    "prism-theme-night-owl": "^1.2.0",
-    "prismjs": "^1.17.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1"
->>>>>>> 300b66e... Gatsby remove extra plugins and start writing own stylesheet
   },
   "devDependencies": {
     "prettier": "2.0.5"

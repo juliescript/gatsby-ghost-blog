@@ -110,9 +110,15 @@ hr {
   border-color: #eee;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media(min-width: 768px) {
   body {
     margin: 0 auto;
+    padding: 0;
     max-width: 590px;
   }
 }
