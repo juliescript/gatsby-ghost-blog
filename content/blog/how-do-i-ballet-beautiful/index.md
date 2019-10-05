@@ -1,7 +1,8 @@
 ---
 title: How do I Ballet Beautiful?
-date: "2019-10-01T13:42"
+date: "2019-10-02T13:42"
 description: My favourite workout is called Ballet Beautiful. This is a guide on how I started with it, how anyone can use it, and the tools I used to continue working out even though I hated working out.
+tags: ["Ballet Beautiful", "workout", "fitness", "ballet"]
 ---
 
 **DISCLAIMER:** This post was written a couple of years ago and lived in Medium. I have now decided to leave Medium completely for this blog, so I moved this post. I did Ballet Beautiful non-stop for 2 years and I dropped 14kg in about 8 months just by cutting snacks and doing 1 hour of this 6 days a week. I did keep the weight off until I moved countries and I'm still struggling to get back to it.
@@ -44,11 +45,11 @@ BB has an online streaming subscription that is $40 USD a month, I can’t affor
 
 When I don’t have the Custom Workout subscription active, I rotate the BB DVDs. There are six of them and all are about 1 hour’s worth of workouts:
 
--   [**Classic 60-min / Total Body Workout**](https://www.balletbeautiful.com/total-body-workout-dvd)** — **This is an amazing mat workout that tones every single part of your body. No matter how long you have done Ballet Beautiful, this one still burns whenever you do it.
--   [**Body Blast**](https://www.balletbeautiful.com/body-blast-dvd-1158)** — **This DVD is made by 4 workouts that are 15 minutes long. They target different parts of the body and the objective is to do these whenever you’re short of time.
--   [**Cardio Fat Burn**](https://www.balletbeautiful.com/cardio-fat-burn-dvd-1160)** — **A 1-hour long high impact cardio workout. This is an interval workout that combines high impact standing work with mat segments for toning. There is a lot of jumping in this one, so be wary if you have knee issues.
--   [**Sculpt and Burn**](https://www.balletbeautiful.com/sculpt-burn-cardio-blast-dvd-1159)** — **Two 30-minute long workouts. The first one is a standing workout that works your core, legs and arms. The second one is a mat section that targets everything, it is like a condensed version of the 60-minute classic DVD.
--   [**Swan Arms Cardio**](https://www.balletbeautiful.com/swan-arms-cardio-717)** — **This one is my favourite. It has a 30 minute low impact standing cardio section and the rest is mat work and stretching. It gets you sweating and it really tones your legs. It is another 1 hour long workout.
+-   [**Classic 60-min / Total Body Workout**](https://www.balletbeautiful.com/total-body-workout-dvd)  —  This is an amazing mat workout that tones every single part of your body. No matter how long you have done Ballet Beautiful, this one still burns whenever you do it.
+-   [**Body Blast**](https://www.balletbeautiful.com/body-blast-dvd-1158) —  This DVD is made by 4 workouts that are 15 minutes long. They target different parts of the body and the objective is to do these whenever you’re short of time.
+-   [**Cardio Fat Burn**](https://www.balletbeautiful.com/cardio-fat-burn-dvd-1160) —  A 1-hour long high impact cardio workout. This is an interval workout that combines high impact standing work with mat segments for toning. There is a lot of jumping in this one, so be wary if you have knee issues.
+-   [**Sculpt and Burn**](https://www.balletbeautiful.com/sculpt-burn-cardio-blast-dvd-1159) —  Two 30-minute long workouts. The first one is a standing workout that works your core, legs and arms. The second one is a mat section that targets everything, it is like a condensed version of the 60-minute classic DVD.
+-   [**Swan Arms Cardio**](https://www.balletbeautiful.com/swan-arms-cardio-717) —  This one is my favourite. It has a 30 minute low impact standing cardio section and the rest is mat work and stretching. It gets you sweating and it really tones your legs. It is another 1 hour long workout.
 -   [**Backstage**](hhttps://www.balletbeautiful.com/backstage-workout-dvd) — This one is a 1 hour long mat workout. I find it quite challenging but it does have a 20 minute stretch that feels just like heaven once you’re done.
 
 #### Some of my go-to rotations for the DVDs are:

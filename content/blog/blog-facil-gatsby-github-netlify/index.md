@@ -2,6 +2,7 @@
 title: ¿Cómo hacer un blog fácil con GastbyJS, GitHub y Netlify?
 date: "2019-10-01T13:42"
 description: En este post te cuento como es que construí este blog. Te cuento como usé GatsbyJS y sus plantillas para hacer este sencillo sitio y como funciona Netlify junto con GitHub para ponerlo en línea. Los pasos son sencillos para empezar, pero como siempre, los detalles son lo más difícil.
+tags: ["react", "gatsby", ]
 ---
 
 *O ¿cómo fue que hice este blog?*

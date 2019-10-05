@@ -2,6 +2,7 @@
 title: Hello and Welcome!
 date: "2019-09-29T13:42"
 description: Hi! My name is Julie and this is my new blog. It doesn't have a theme but I built it with some very cool tools. It is based on the Gatsby Blog Starter and hosted on Netlify. I missed blogging and it seemed like a good idea to join this year's Hacktoberfest.
+tags: ["react", "gatsby", "netlify", "blog"]
 ---
 
 Here's the thing: I'm in love with the idea of blogging. I have loved blogs ever since I found out about LiveJournal in 1999. I have always kept some form of online journal. Whether it is on a platform like LiveJournal, Blogger, Wordpress.com, or Medium. I have also had my own self-hosted blogging attempts, but they never stick.
@@ -19,4 +20,4 @@ I had lost a lot of joy in coding, and ever since I switched companies (a story 
 
 One more thing: I will write entries in both English and Spanish. Not always and not both languages at the same time. Sometimes, it is easier to express some things in my native language, others in English. Other times, I would like to write technical stuff in Spanish since resources are lacking for locals and not everyone speaks English.
 
-Well take it as it goes, right?
+We'll take it as it goes, right?

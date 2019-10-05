@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale, pink, turqouise } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -21,31 +20,16 @@ class BlogPostTemplate extends React.Component {
         <article>
           <header>
             <h1
-              style={{
-                marginTop: rhythm(1),
-                marginBottom: 0,
-                color: pink,
-                fontFamily: `Merriweather, Gerogia, serif`
-              }}
             >
               {post.frontmatter.title}
             </h1>
             <p
-              style={{
-                ...scale(-1 / 5),
-                display: `block`,
-                marginBottom: rhythm(1),
-              }}
             >
               {post.frontmatter.date}
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr
-            style={{
-              marginBottom: rhythm(1),
-            }}
-          />
+          <hr />
           <footer>
             <Bio />
           </footer>
@@ -53,24 +37,17 @@ class BlogPostTemplate extends React.Component {
 
         <nav>
           <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
           >
             <li>
               {previous && (
-                <Link style={{ color: turqouise }} to={previous.fields.slug} rel="prev">
+                <Link to={previous.fields.slug} rel="prev">
                   ← {previous.frontmatter.title}
                 </Link>
               )}
             </li>
             <li>
               {next && (
-                <Link style={{ color: turqouise }} to={next.fields.slug} rel="next">
+                <Link to={next.fields.slug} rel="next">
                   {next.frontmatter.title} →
                 </Link>
               )}
