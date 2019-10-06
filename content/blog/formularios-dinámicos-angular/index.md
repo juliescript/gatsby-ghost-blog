@@ -86,9 +86,9 @@ crearFormulario() {
 }
 ```
 
-Como `FormBuilder` ya incluye todas estas heramientas, no necesitamos definir un nuevo `FormArray` con `new FormArray([])`. Los dos métodos son válidos, pero si ya tenemos el FormBuilder definido, hay que usarlo.
+Como `FormBuilder` ya incluye todas estas herramientas, no necesitamos definir un nuevo `FormArray` con `new FormArray([])`. Los dos métodos son válidos, pero si ya tenemos el FormBuilder definido, hay que usarlo.
 
-A mi gusto personal, prefiero crear una función para añadir campos al `FormArray` que definirlo en el formulario inicial. En el caso de este ejemplo, voy a crear un `FormGroup` con 3 campos, y cada uno de estos grupos será añadido al arreglo llamado experiencial laboral.
+A mi gusto personal, prefiero crear una función para añadir campos al `FormArray` que definimos en el formulario inicial. En el caso de este ejemplo, voy a crear un `FormGroup` con 3 campos, y cada uno de estos grupos será añadido al arreglo llamado experiencia laboral.
 
 Ahora les voy a dar un consejo buenísimo que aprendí en mi nuevo trabajo: hay que crear una función de `get` para conseguir el arreglo y así no hacernos mil bolas a la hora de manipularlo.
 
@@ -221,4 +221,4 @@ Aquí abajo les dejo el proyecto final en Glitch y lo estaré usando como base p
 
 ----------
 
-Espero que este pequeño ejemplo les sirva para entender mejor los formularios reactivos y dinámicos. Son herramientas muy últiles para hacer aplicaciones con funcionalidades más complejas. En la siguiente parte escribiré sobre validación y como crear validaciones dinámicas y como aplicarlas a diferentes partes del formulario.
+Espero que este pequeño ejemplo les sirva para entender mejor los formularios reactivos y dinámicos. Son herramientas muy útiles para hacer aplicaciones con funcionalidades más complejas. En la siguiente parte escribiré sobre validación y como crear validaciones dinámicas y como aplicarlas a diferentes partes del formulario.
