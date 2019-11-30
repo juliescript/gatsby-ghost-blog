@@ -1,8 +1,20 @@
 module.exports = {
   siteMetadata: {
+<<<<<<< HEAD
     title: `Gatsby Default Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
+=======
+    title: `Juliescript`,
+    author: `Julieta Campos`,
+    description: `Blog personal de Julieta Campos, una ingeniero de software mexicana que vive en Berlín.`,
+    siteUrl: `https://juliescript.dev/`,
+    social: {
+      twitter: `juliescript`,
+      instagram: `juliescript`,
+      github: `juliescript`
+    },
+>>>>>>> 5ff9cb0... Cambiar bio a español
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
