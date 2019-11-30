@@ -45,8 +45,8 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong>, a Mexican software Engineer based in Berlin. I like makeup, baking, ballet workouts, and coding.
-        <br />
+        Escrito por <strong>{author}</strong>, una ingeniero en software mexicana que vive en Berlín. Me gusta programar, el maquillaje, la repostería y los ejercicios de ballet.
+        <br /> <br />
         <a target="_blank" rel="noopener noreferrer" href={`https://twitter.com/${social.twitter}`}>
           Twitter
         </a>
