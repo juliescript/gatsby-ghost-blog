@@ -1,0 +1,32 @@
+@import "../style/variables";
+
+.bio {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid $white;
+  box-sizing: border-box;
+  padding: 10px;
+
+  .bio__frame {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background: $white;
+    box-sizing: border-box;
+    padding: 15px;
+
+    .bio__image {
+      border-radius: 50%;
+      flex: 0 0 90px;
+    }
+
+    .bio__text {
+      flex: 1 1 70%;
+      max-width: 600px;
+      font-family: $playfair-display;
+      font-weight: lighter;
+    }
+  }
+}
