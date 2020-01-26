@@ -40,6 +40,10 @@
     letter-spacing: 0.03em;
     line-height: 1.5em;
 
+    p {
+      margin: 2em 0;
+    }
+
     a {
       color: $accent-pink;
 
@@ -73,9 +77,21 @@
     }
 
     img {
-        text-align: center;
-        margin: 0 auto;
-        display: block;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+    }
+
+    blockquote {
+      color: $header-gray;
+      font-style: italic;
+      font-size: 24px;
+      text-align: center;
+      box-sizing: border-box;
+      border-left: 5px solid #ffeaea;
+      padding-left: 1em;
+      letter-spacing: 0.1em;
+      line-height: 1.5em;
     }
   }
 }
