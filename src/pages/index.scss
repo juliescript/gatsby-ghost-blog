@@ -4,12 +4,12 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-content: flex-start;
   align-items: stretch;
 
   article {
-    flex: 1 1 45%;
+    flex: 0 1 45%;
     padding-left: 10px;
     box-sizing: border-box;
     margin: 1em 2.5% 2em;
