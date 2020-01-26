@@ -1,0 +1,66 @@
+@import "../style/variables";
+
+.menu {
+    height: 50px;
+    background: $rose-gold;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    ul{
+        margin: 0 30px;
+        padding: 0;
+        width: 300px;
+        max-width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        list-style: none;
+        text-transform: uppercase;
+
+        &.menu__site-navigation {
+            justify-content: flex-start;
+
+            a {
+                color: $link-gray;
+                font-family: $lato;
+                font-weight: 300;
+                
+                &:hover {
+                    color: $black;
+                }
+            }
+        }
+
+        &.menu__social-media {
+            justify-content: flex-end;
+
+            a {
+                width: 20px;
+                height: 20px;
+                display: block;
+                font-size: 0;
+                background: center center no-repeat;
+                background-size: contain;
+                
+                &.menu__social-media--instagram {
+                    background-image: url('../../content/assets/images/instagram.svg');
+                }
+
+                &.menu__social-media--twitter {
+                    background-image: url('../../content/assets/images/twitter.svg');
+                }
+
+                &.menu__social-media--github {
+                    background-image: url('../../content/assets/images/github.svg');
+                }
+            }
+        }
+
+        li {
+            margin: 0 0.5em;
+        }
+    }
+}
