@@ -23,17 +23,12 @@ const Bio = () => {
       site {
         siteMetadata {
           author
-          social {
-            twitter
-            instagram
-            github
-          }
         }
       }
     }
   `)
 
-  const { author, social } = data.site.siteMetadata
+  const { author } = data.site.siteMetadata
   return (
     <div
     className="bio"
