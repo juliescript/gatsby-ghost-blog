@@ -1,0 +1,58 @@
+@import "../style/variables";
+
+.main-header {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: $playfair-display;
+  text-transform: uppercase;
+
+  a {
+    color: $header-gray;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 60px;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-weight: lighter;
+    font-size: 24px;
+  }
+
+  small {
+    font-size: 10px;
+    color: $text-gray;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: $lato;
+    letter-spacing: 0.5em;
+    margin-bottom: 40px;
+  }
+}
+
+.footer {
+  background-color: $yet-another-pink;
+  box-sizing: border-box;
+  padding: 20px 0;
+
+  .footer__information {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-family: $lato;
+    font-weight: lighter;
+    font-size: 10px;
+
+    a {
+      text-decoration: none;
+      color: $link-gray;
+    }
+  }
+}
