@@ -23,11 +23,11 @@ const Menu = () => {
     <nav className="menu">
       <ul className="menu__site-navigation">
         <li>
-          <Link to={'/'}>home</Link>
+          <Link to={'/'}>inicio</Link>
         </li>
-        {/* <li>
-          <Link to="about">about me</Link>
-        </li> */}
+        <li>
+          <Link to="about">sobre mí</Link>
+        </li>
       </ul>
       <ul className="menu__social-media">
         <li>
