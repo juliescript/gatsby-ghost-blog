@@ -1,9 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+import "./blog-post.scss"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -17,7 +18,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <article>
+        <article class="blog-post">
           <header>
             <h1
             >
@@ -29,13 +30,9 @@ class BlogPostTemplate extends React.Component {
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr />
-          <footer>
-            <Bio />
-          </footer>
         </article>
 
-        <nav>
+        <nav className="post-navigation">
           <ul
           >
             <li>
@@ -45,9 +42,9 @@ class BlogPostTemplate extends React.Component {
                 </Link>
               )}
             </li>
-            <li>
+            <li className="next">
               {next && (
-                <Link to={next.fields.slug} rel="next">
+                <Link to={next.fields.slug} rel="next" >
                   {next.frontmatter.title} →
                 </Link>
               )}
