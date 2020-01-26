@@ -53,6 +53,10 @@
     a {
       text-decoration: none;
       color: $link-gray;
+
+      &:hover {
+        color: $black;
+      }
     }
   }
 }
