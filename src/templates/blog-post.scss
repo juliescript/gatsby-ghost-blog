@@ -137,3 +137,9 @@
     }
   }
 }
+
+@media (max-width: 700px) {
+  .blog-post {
+    max-width: calc(100vw - 4em);
+  }
+}
