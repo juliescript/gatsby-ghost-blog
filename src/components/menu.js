@@ -23,9 +23,6 @@ const Menu = () => {
     <nav className="menu">
       <ul className="menu__site-navigation">
         <li>
-          <Link to={'/'}>inicio</Link>
-        </li>
-        <li>
           <Link to="about">sobre mí</Link>
         </li>
       </ul>
