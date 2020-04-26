@@ -9,16 +9,18 @@ import "./pages.scss"
 class AboutPage extends React.Component {
   render() {
     const { data } = this.props
+    console.log(data)
     const siteTitle = data.site.siteMetadata.title
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Sobre Julieta Campos" />
-        <article class="blog-post">
+        <article className="blog-post">
           <header>
             <h1>¡Hola!</h1>
           </header>
           <section>
+          <img src={data.fileName.childImageSharp.fluid.src} alt="Julieta en la Laguna Azul de Islandia" />
             <p>
               Soy Julieta y escribo este blog. Soy mexicana y hace 3 años que
               vivo en Berlín, Alemania. Me dedico a escribir software para una
@@ -78,6 +80,13 @@ export default AboutPage
 
 export const pageQuery = graphql`
   query {
+    fileName: file(relativePath: { eq: "julie_laguna_azul.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000, maxHeight: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     site {
       siteMetadata {
         title
