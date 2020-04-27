@@ -9,7 +9,7 @@ tags: ["trabajo desde casa", "productividad", "escritorio"]
 
 ---------
 
-Desde que nos mudamos al departamento donde vivimos actualmente, quisimos tener un espacio dedicado para el trabajo. Mi prometido y yo somos ingenieros en software y ocasionalmente trabajamos desde casa. También tenemos varios hobbies que involucran usar la computadora, así que tener unos buenos escritorios y unas sillas apropidas para trabajar fueron una prioridad.
+Desde que nos mudamos al departamento donde vivimos actualmente, quisimos tener un espacio dedicado para el trabajo. Mi prometido y yo somos ingenieros en software y ocasionalmente trabajamos desde casa. También tenemos varios hobbies que involucran usar la computadora, así que tener unos buenos escritorios y unas sillas apropidas para trabajar era prioridad para nosotros.
 
 Con el tiempo hemos agregado cosas para hacer nuestro espacio de trabajo más cómodo. Ahora que llevamos más de un mes trabajando desde casa, la inversión en nuestro espacio de trabajo ha valido muchísimo la pena. Podemos trabajar cómodamente, separar nuestro trabajo del resto de la casa y mantenernos concentrados durante el día.
 
@@ -49,7 +49,7 @@ Sí, somos totalmente IKEA.
 
 La rutina que medio me he hecho ha sido la siguiente:
 
-Despierto cerca de las 8am, me baño y arreglo para trabajar. Normalmente me maquillo para trabajar porque me gusta estar arreglada, pero no es algo que haga diario o a fuerza. Normalmente desayunamos un cereal en frente de la compu y empieza el día de trabajo.
+Despierto cerca de las 8:00, me baño y arreglo para trabajar. Normalmente me maquillo para trabajar porque me gusta estar arreglada, pero no es algo que haga diario o a fuerza. Normalmente desayunamos un cereal en frente de la compu y empieza el día de trabajo.
 
 Mi primer junta del día siempre es mi stand up a las 9:45, así que antes de eso debo de estar conectada y revisando mis tareas del día. Dependiendo del día, a veces tengo juntas o a veces no tengo nada agendado. Sin embargo, tengo varias video llamadas al día para platicar con mis compañeros sobre el proyecto en el que estamos trabajando.
 
@@ -57,7 +57,7 @@ A las 11:45 sale mi recordatorio de la comida, así que por ahí de las 12 me le
 
 Durante el tiempo de trabajo me doy 2 descansos de 15 minutos para preparar té, descansar mis ojos y estirar un poco las piernas.
 
-El día de trabajo termina a las 17:00 o 5 de la tarde, a veces media hora más. Normalmente me pongo a ver YouTube o a jugar Animal Crossing. Algunas veces vamos a caminar después del trabajo o a hacer algo que tenga pendiente como sacar la basura o ir al super mercado.
+El día de trabajo termina a las 17:00, a veces media hora más. Normalmente me pongo a ver YouTube o a jugar Animal Crossing. Algunas veces vamos a caminar después del trabajo o a hacer algo que tenga pendiente como sacar la basura o ir al super mercado.
 
 Estuve haciendo ejercicio constante durante unas 2 o 3 semanas pero no lo incluyo en la rutina porque no es algo que hago diario a cierto tiempo. Lo hago cuando tengo ganas y no siempre a la misma hora.
 
