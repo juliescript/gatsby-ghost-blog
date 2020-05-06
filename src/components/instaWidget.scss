@@ -1,0 +1,32 @@
+@import "../style/variables";
+
+.instaPictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  max-width: 800px;
+  width: 80%;
+  margin: 40px auto;
+
+  .instaPictureFrame {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 0.5em;
+    background: $rose-gold;
+
+      .instaPictureLink {
+          display: block;
+          height: 100%;
+          width: 100%;
+
+        .instaPicture {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+      }
+  }
+}
