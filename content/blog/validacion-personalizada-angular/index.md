@@ -20,7 +20,7 @@ El caso clásico para un validador personalizado es el de checar que un formular
 
 Para crear este formulario vamos a usar una forma reactiva:
 
-```js
+```javascript
 this.form =  this.fb.group({
   'password':  ['',  Validators.required],
   'confirmarPassword':  ['',  Validators.required]
@@ -51,7 +51,7 @@ Ahora toca hacer una plantilla sencilla para mostrar nuestros campos:
 
 El siguiente paso es escribir nuestra función de validación. Esto lo voy a hacer en un archivo separado llamado `app.validator.ts`, me gusta mucho usar la convención `<nombre_del_componente>.validator.ts` para denotar mis validadores, pero depende del caso y la necesidad del proyecto. A veces los validadores se pueden llegar a compartir entre componentes, por lo cual es mejor idea llamarlos de acuerdo a lo que vayan a validar. También cabe notar que pueden haber varias funciones de validación dentro de un mismo archivo de validadores.
 
-```js
+```javascript
 import  {  FormGroup,  ValidationErrors,  ValidatorFn  }  from  '@angular/forms';
 
 export  const validarQueSeanIguales:  ValidatorFn  =  (control:  FormGroup):  ValidationErrors  |  null  =>  {
@@ -88,7 +88,7 @@ En resumen quedan algo así:
 
 Nuestro usuario necesita saber si las contraseñas son iguales después de que empieza a escribir la confirmación. Así que voy a checar que ambos campos tengan estatus `dirty` y checar si el formulario tiene el error de `noSonInguales`.
 
-```js
+```javascript
 checarSiSonIguales():  boolean  {
 	return  this.form.hasError('noSonIguales')  &&
 		this.form.get('password').dirty &&
