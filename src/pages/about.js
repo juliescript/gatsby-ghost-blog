@@ -20,7 +20,10 @@ class AboutPage extends React.Component {
             <h1>¡Hola!</h1>
           </header>
           <section>
-          <img src={data.fileName.childImageSharp.fluid.src} alt="Julieta en la Laguna Azul de Islandia" />
+            <img
+              src={data.fileName.childImageSharp.fluid.src}
+              alt="Julieta en la Laguna Azul de Islandia"
+            />
             <p>
               Soy Julieta y escribo este blog. Soy mexicana y hace 3 años que
               vivo en Berlín, Alemania. Me dedico a escribir software para una
@@ -59,7 +62,7 @@ class AboutPage extends React.Component {
               >
                 Twitter
               </a>
-              y {" "}
+              y{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -67,7 +70,8 @@ class AboutPage extends React.Component {
               >
                 GitHub
               </a>
-              . Aunque te aviso que casi nunca hablo sobre código en mis redes y mi GitHub está lleno de forks.
+              . Aunque te aviso que casi nunca hablo sobre código en mis redes y
+              mi GitHub está lleno de forks.
             </p>
           </section>
         </article>

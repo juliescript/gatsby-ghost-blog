@@ -18,9 +18,7 @@ La verdad es que funcionan como por arte de magia. Lo que se tiene que hacer es:
 - Definir en qué elemento queremos mostrar un tooltip
 
 ```html
-<button
-  matTooltip="wooo, soy un tooltip"
->
+<button matTooltip="wooo, soy un tooltip">
   Pasa sobre mí para ver un tooltip
 </button>
 ```
@@ -42,10 +40,7 @@ Hasta ahora todo parece bien sencillo ¿no? ¡Pues no!
 Vamos a probar poniendo un tooltip dentro de un checkbox, no más para ver como sería todo en un mundo ideal:
 
 ```html
-<mat-checkbox
-  checked="checked"
-  matTooltip="Soy un tooltip"
->
+<mat-checkbox checked="checked" matTooltip="Soy un tooltip">
   Soy un checkbox
 </mat-checkbox>
 ```
@@ -58,14 +53,11 @@ La verdad es que hacer setup del FocusMonitor se me hizo mega complejo para la c
 
 ```html
 <div>
-  <mat-checkbox
-    (mouseenter)="tooltip.show()"
-    (mouseleave)="tooltip.hide()"
-  >
+  <mat-checkbox (mouseenter)="tooltip.show()" (mouseleave)="tooltip.hide()">
     <span
-        #tooltip="matTooltip"
-        matTooltip="wooo, soy un tooltip"
-        matTooltipPosition="below"
+      #tooltip="matTooltip"
+      matTooltip="wooo, soy un tooltip"
+      matTooltipPosition="below"
     ></span>
     Pasa el cursor sobre este checkbox para ver un tooltip
   </mat-checkbox>

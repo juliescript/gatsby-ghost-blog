@@ -9,7 +9,7 @@ tags: ["Ballet Beautiful", "workout", "fitness", "ballet"]
 
 Also, there have been other 2 DVDs released that are not listed here, but I haven't tried them so I can't offer a review.
 
-----------
+---
 
 If there is one thing that gets asked a lot in our [Ballet Beautiful](http://balletbeautiful.com) (BB) Facebook Group it is “How much BB do you do a week to see results?”.
 
@@ -29,7 +29,7 @@ You cannot expect to do as much exercise as someone who works from home and is s
 
 Now that we have this out of the way, I will get into my personal routine.
 
-----------
+---
 
 I discovered Ballet Beautiful in 2013 after trying a ballet class. I love the chilled out atmosphere of it and the fact that I feel elegant even when I’m sweating like a pig. I did it on and off but never really stuck to it since I got mocked about it by my family. No one understood my excitement and that really put me off from doing it.
 
@@ -39,32 +39,32 @@ I started doing 1 BB workout a day for 15 minutes and as I got stronger I increa
 
 #### The Custom Workout
 
-BB has an online streaming subscription that is $40 USD a month, I can’t afford that so I only get it during sales. The [**Custom Workout**](https://www.balletbeautiful.com/custom-workout), as it is called, gives you access to all the BB workouts and it creates workout plans depending on how much time you have and which areas you want to target that week. I usually do an Ideal (4–5 hours a week) rotation 6 days a week.
+BB has an online streaming subscription that is \$40 USD a month, I can’t afford that so I only get it during sales. The [**Custom Workout**](https://www.balletbeautiful.com/custom-workout), as it is called, gives you access to all the BB workouts and it creates workout plans depending on how much time you have and which areas you want to target that week. I usually do an Ideal (4–5 hours a week) rotation 6 days a week.
 
 #### The Ballet Beautiful DVDs
 
 When I don’t have the Custom Workout subscription active, I rotate the BB DVDs. There are six of them and all are about 1 hour’s worth of workouts:
 
--   [**Classic 60-min / Total Body Workout**](https://www.balletbeautiful.com/total-body-workout-dvd)  —  This is an amazing mat workout that tones every single part of your body. No matter how long you have done Ballet Beautiful, this one still burns whenever you do it.
--   [**Body Blast**](https://www.balletbeautiful.com/body-blast-dvd-1158) —  This DVD is made by 4 workouts that are 15 minutes long. They target different parts of the body and the objective is to do these whenever you’re short of time.
--   [**Cardio Fat Burn**](https://www.balletbeautiful.com/cardio-fat-burn-dvd-1160) —  A 1-hour long high impact cardio workout. This is an interval workout that combines high impact standing work with mat segments for toning. There is a lot of jumping in this one, so be wary if you have knee issues.
--   [**Sculpt and Burn**](https://www.balletbeautiful.com/sculpt-burn-cardio-blast-dvd-1159) —  Two 30-minute long workouts. The first one is a standing workout that works your core, legs and arms. The second one is a mat section that targets everything, it is like a condensed version of the 60-minute classic DVD.
--   [**Swan Arms Cardio**](https://www.balletbeautiful.com/swan-arms-cardio-717) —  This one is my favourite. It has a 30 minute low impact standing cardio section and the rest is mat work and stretching. It gets you sweating and it really tones your legs. It is another 1 hour long workout.
--   [**Backstage**](hhttps://www.balletbeautiful.com/backstage-workout-dvd) — This one is a 1 hour long mat workout. I find it quite challenging but it does have a 20 minute stretch that feels just like heaven once you’re done.
+- [**Classic 60-min / Total Body Workout**](https://www.balletbeautiful.com/total-body-workout-dvd)  —  This is an amazing mat workout that tones every single part of your body. No matter how long you have done Ballet Beautiful, this one still burns whenever you do it.
+- [**Body Blast**](https://www.balletbeautiful.com/body-blast-dvd-1158) —  This DVD is made by 4 workouts that are 15 minutes long. They target different parts of the body and the objective is to do these whenever you’re short of time.
+- [**Cardio Fat Burn**](https://www.balletbeautiful.com/cardio-fat-burn-dvd-1160) —  A 1-hour long high impact cardio workout. This is an interval workout that combines high impact standing work with mat segments for toning. There is a lot of jumping in this one, so be wary if you have knee issues.
+- [**Sculpt and Burn**](https://www.balletbeautiful.com/sculpt-burn-cardio-blast-dvd-1159) —  Two 30-minute long workouts. The first one is a standing workout that works your core, legs and arms. The second one is a mat section that targets everything, it is like a condensed version of the 60-minute classic DVD.
+- [**Swan Arms Cardio**](https://www.balletbeautiful.com/swan-arms-cardio-717) —  This one is my favourite. It has a 30 minute low impact standing cardio section and the rest is mat work and stretching. It gets you sweating and it really tones your legs. It is another 1 hour long workout.
+- [**Backstage**](hhttps://www.balletbeautiful.com/backstage-workout-dvd) — This one is a 1 hour long mat workout. I find it quite challenging but it does have a 20 minute stretch that feels just like heaven once you’re done.
 
 #### Some of my go-to rotations for the DVDs are:
 
--   If I want just to keep on with my results, then I will alternate the Classic DVD with the Swan Arms Cardio DVD, 6 days a week.
--   If I want to lose fat, I will alternate the Swan Arms Cardio DVD with the Cardio Fat Burn DVD, 6 days a week.
--   If I want extra toning, I will alternate the Classic DVD with the Sculpt and Burn DVD, 6 days a week.
--   If I want to torture myself, I will do the Backstage DVD combined with either Cardio Fat Burn or Swan Arms Cardio, 6 days a week.
+- If I want just to keep on with my results, then I will alternate the Classic DVD with the Swan Arms Cardio DVD, 6 days a week.
+- If I want to lose fat, I will alternate the Swan Arms Cardio DVD with the Cardio Fat Burn DVD, 6 days a week.
+- If I want extra toning, I will alternate the Classic DVD with the Sculpt and Burn DVD, 6 days a week.
+- If I want to torture myself, I will do the Backstage DVD combined with either Cardio Fat Burn or Swan Arms Cardio, 6 days a week.
 
 #### Other ways to workout with Ballet Beautiful
 
-Other ways to use Ballet Beautiful is to buy online workouts. Not all the library is available for purchase, but I do recommend getting the two [**Bridal**](https://www.balletbeautiful.com/bridal-pt-2)  [**bundles**](https://www.balletbeautiful.com/bb-bridal) available. They are a full body workout in on themselves and they deliver results.
+Other ways to use Ballet Beautiful is to buy online workouts. Not all the library is available for purchase, but I do recommend getting the two [**Bridal**](https://www.balletbeautiful.com/bridal-pt-2) [**bundles**](https://www.balletbeautiful.com/bb-bridal) available. They are a full body workout in on themselves and they deliver results.
 
 If I have the subscription and don’t feel like following that day’s plan, then I will create my own based on a DVD. For example: to replicate the Classic DVD I will chose a bridge workout, abs workout, inner thigh workout, outer thigh workout, arms workout, and a small cardio workout. This really helps me when I’m lost and not feeling the rotations.
 
-----------
+---
 
 Ballet Beautiful has been really great for me because I enjoy it. Not all exercises are great for everyone, the key with sticking to them is to find something you really like to do. For me, that thing is Ballet Beautiful and I couldn’t be happier about it.

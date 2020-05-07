@@ -5,9 +5,9 @@ description: Ahora que estamos en cuarentena trabajar desde casa se ha vuelto al
 tags: ["trabajo desde casa", "productividad", "escritorio"]
 ---
 
-*Quiero empezar este post reconociendo el gran privilegio de tener un trabajo estable, de tiempo completo, que me permite trabajar desde mi casa. No todos lo tenemos y reconozco el valor que tienen aquellos que salen todos los días para mantener a su familia durante esta situación.*
+_Quiero empezar este post reconociendo el gran privilegio de tener un trabajo estable, de tiempo completo, que me permite trabajar desde mi casa. No todos lo tenemos y reconozco el valor que tienen aquellos que salen todos los días para mantener a su familia durante esta situación._
 
----------
+---
 
 Desde que nos mudamos al departamento donde vivimos actualmente, quisimos tener un espacio dedicado para el trabajo. Mi prometido y yo somos ingenieros en software y ocasionalmente trabajamos desde casa. También tenemos varios hobbies que involucran usar la computadora, así que tener unos buenos escritorios y unas sillas apropidas para trabajar era prioridad para nosotros.
 
@@ -31,7 +31,7 @@ Sí, somos totalmente IKEA.
 - Hub para cargar dispositivos USB de [Aukey](https://www.amazon.de/-/en/gp/product/B01HZF7CJO/)
 - Monitor [Dell U2419H](https://www.amazon.de/-/en/gp/product/B07JDGSPFM/)
 - Teclado [Logitech Ergo K860](https://www.logitech.com/de-de/product/k860-split-ergonomic-keyboard?crid=27), este lo compré con descuento de mi empresa
-- Audífonos [Sony WH-1000XM3](https://www.amazon.de/-/en/WH-1000XM3-Bluetooth-Canceling-headphones-Headphones/dp/B07GDR2LYK/) 
+- Audífonos [Sony WH-1000XM3](https://www.amazon.de/-/en/WH-1000XM3-Bluetooth-Canceling-headphones-Headphones/dp/B07GDR2LYK/)
 - Apple Magic Trackpad 2
 - Macbook Pro 15 pulgadas, es la del trabajo
 - Macbook Air 13 pulgadas, es la personal
@@ -45,7 +45,7 @@ Sí, somos totalmente IKEA.
 
 ![Escritorio vista completa](./20200426_171549.jpg)
 
---------
+---
 
 La rutina que medio me he hecho ha sido la siguiente:
 

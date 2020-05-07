@@ -30,18 +30,18 @@ const Bio = () => {
 
   const { author } = data.site.siteMetadata
   return (
-    <div
-    className="bio"
-    >
+    <div className="bio">
       <div className="bio__frame">
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
-        className="bio__image"
-      />
-      <p className="bio__text">
-        Escrito por <strong>{author}</strong>, una ingeniero en software mexicana que vive en Berlín. Me gusta programar, el maquillaje, la repostería y los ejercicios de ballet.
-      </p>
+        <Image
+          fixed={data.avatar.childImageSharp.fixed}
+          alt={author}
+          className="bio__image"
+        />
+        <p className="bio__text">
+          Escrito por <strong>{author}</strong>, una ingeniero en software
+          mexicana que vive en Berlín. Me gusta programar, el maquillaje, la
+          repostería y los ejercicios de ballet.
+        </p>
       </div>
     </div>
   )

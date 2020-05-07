@@ -23,7 +23,6 @@ En el caso del día de hoy, porque me eché el re-diseño hoy, empecé por la ba
 
 El pie de página me gustó mucho porque se ve un poco más editorial. Me gustaron los bordes dobles y por eso los usé en varios lados. Mantuve todo sencillo para que fuera fácil acomodar todo para que fuera responsive. El sitio no está optimizado para ser responsive, pero se ve bien en todas las pantallas. Obviamente, las muestras de código de stackblitz y Glitch no se ven bien en pantallas pequeñas.
 
-
 ## ¿Cómo quedó organizado el CSS?
 
 En lugar de andarme peleando con algún sistema de diseño (Design System), o intentar sobreescribir los estilos que trae el starter, decidí borrar TODO. Desde los estilos que ya había logrado poner, hasta las dependencias de las dependencias que tenían algún diseño. Dejé el sitio con puro HTML, así bien de los 90's.
@@ -40,6 +39,6 @@ La verdad es que tal vez sí. Pero para este proyecto se me hizo demasiado. Es u
 
 Voy a retomar mis guías de Angular y tal vez pasarles mis recetas de comida mexicana que hago acá en el extranjero. Tengo varios amigos que me han pedido recetas y aunque he intentado grabar videos, tener la receta escrita es mucho mejor y más práctico. Por ahora tengo 3 aprendizajes de mi trabajo del día de hoy:
 
-* *Usa tus talentos para hacer tu trabajo más fácil*: Si no te sale la diseñada, no empieces desde cero. Copia de otros sitios y elige lo que más te guste. Siempre ponle tu propio sello a las cosas y aunque no seas diseñador, podrás hacer cosas bonitas. Claro, siempre puedes contratar a alguien para que te ayude o pedir ayuda a un amigo.
-* *Menos es más*: Las cosas que están de moda pueden ser muy engorrosas de aprender en primer instancia. Enfócate en lo que necesitas y si no necesitas la tecnología de moda, no es obligatorio usarla. Yo usé GatsbyJS para este blog para aprenderlo, pero no pienso integrarle muchas cosas que otros sitios hechos en Gatsby tienen.
-* *A veces sólo necesitas un domingo*: Me encanta descansar de escribir código porque es algo que hago todos días en mi trabajo. Sin embargo, me encanta tener pequeños proyectitos para mí sola como este blog y sólo necesité este domingo para dejarlo tal y como quería. En lugar de estar viendo YouTube o Netflix, me dediqué a escribir CSS para mi nuevo tema y me encantó el resultado.
+- _Usa tus talentos para hacer tu trabajo más fácil_: Si no te sale la diseñada, no empieces desde cero. Copia de otros sitios y elige lo que más te guste. Siempre ponle tu propio sello a las cosas y aunque no seas diseñador, podrás hacer cosas bonitas. Claro, siempre puedes contratar a alguien para que te ayude o pedir ayuda a un amigo.
+- _Menos es más_: Las cosas que están de moda pueden ser muy engorrosas de aprender en primer instancia. Enfócate en lo que necesitas y si no necesitas la tecnología de moda, no es obligatorio usarla. Yo usé GatsbyJS para este blog para aprenderlo, pero no pienso integrarle muchas cosas que otros sitios hechos en Gatsby tienen.
+- _A veces sólo necesitas un domingo_: Me encanta descansar de escribir código porque es algo que hago todos días en mi trabajo. Sin embargo, me encanta tener pequeños proyectitos para mí sola como este blog y sólo necesité este domingo para dejarlo tal y como quería. En lugar de estar viendo YouTube o Netflix, me dediqué a escribir CSS para mi nuevo tema y me encantó el resultado.

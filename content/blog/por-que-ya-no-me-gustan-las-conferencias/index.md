@@ -16,7 +16,7 @@ En mi experiencia, estuve con un grupo de amigos así que nunca estuve sola. Tam
 
 Después de eso fui a eventos como el Google Developer Day en la Ciudad de México que estuvo padre pero nada del otro mundo y después ya no volví a ir más que a [GDLJS](https://github.com/gdljs) y a TalentLand cuando vivía en Guadalajara. Que la verdad disfruté mucho más del GDLJS, aunque me preguntaron que si estaba reclutando gente para mi empresa 🙄.
 
-  ---
+---
 
 Ya que me mudé a Alemania, tuve la oportunidad de ir a [JSConf Islandia](https://2018.jsconf.is/). De verdad ha sido el mejor evento al que he ido. Desde el lugar, la organización, la comunidad que se armó, todo fue increíble. Todo excepto un detalle: las pláticas.
 
@@ -46,7 +46,7 @@ En lo personal, JSConfEU fue un barril sin fondo de ansiedad social para mí que
 
 Claro, las fiestas y las experiencias fuera de las pláticas son padrísimas, pero no fui a la conferencia por eso.
 
----  
+---
 
 Así llegamos a mi más reciente experiencia en una conferencia: [Codemotion Berlin 2019](https://events.codemotion.com/conferences/berlin/2019/), también llamada "los dos días que me la pasé durmiendo en un cine". La verdad no me dormí en las pláticas.
 
@@ -58,16 +58,16 @@ Me mandaron por trabajo y no había mucho que me interesara. Pero lo que me sac�
 
 Después de esta telenovela, aquí está mi conclusión:
 
-* Las conferencias son lugares excelentes si te gusta socializar
+- Las conferencias son lugares excelentes si te gusta socializar
 
-* Está muy padre la oportunidad de viajar y aprovechar los eventos que se organizan fuera de las pláticas
+- Está muy padre la oportunidad de viajar y aprovechar los eventos que se organizan fuera de las pláticas
 
-* Son algo que cansa muy rápido a alguien que tiene ansiedad social o miedo a las multitudes
+- Son algo que cansa muy rápido a alguien que tiene ansiedad social o miedo a las multitudes
 
-* Los ponentes usualmente están ahí para hacer marketing de sus empresas y está bien porque es su trabajo
+- Los ponentes usualmente están ahí para hacer marketing de sus empresas y está bien porque es su trabajo
 
-* Si no te gusta ir o está muy caro, busca las pláticas en YouTube
+- Si no te gusta ir o está muy caro, busca las pláticas en YouTube
 
-* De ahora en adelante, voy a ver todas las conferencias que quiera en YouTube
+- De ahora en adelante, voy a ver todas las conferencias que quiera en YouTube
 
 Si te gustan las conferencias, está bien. Sigue yendo, disfruta, haz amigos, conecta, aprende cosas nuevas. No hay nada de malo con las conferencias. Sólo no son para mí y no estoy dispuesta a gastar mi presupuesto de educación en algo así. Prefiero pagar un workshop o una experiencia más pequeña que una mega conferencia.

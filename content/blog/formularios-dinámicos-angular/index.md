@@ -6,7 +6,7 @@ description: Los formularios dinámicos son excelentes herramientas para consegu
 
 **Disclaimer**: Esta tarea la hice originalmente en Angular 7 y estamos en proceso de actualizar a Angular 8 por esta razón puede que las cosas cambien en versiones más recientes.
 
-----------
+---
 
 Uno de los retos más raros que he tenido ha sido trabajar con formularios dinámicos en Angular.
 
@@ -18,7 +18,6 @@ Un ejemplo es un típico formulario para hacer un currículum en internet. La pa
 
 ![Formulario de experiencia laboral](./formulario_dinamico.png)
 
-
 Angular nos permite tener formularios dinámicos con su módulo de formularios reactivos o `ReactiveFormsModule`. Un formulario reactivo es un tipo de formulario que se crea desde el controlador. En lugar de tener el formulario 100% en la plantilla, desde el controlador se crean los campos y se añaden características como las validaciones.
 
 Hacer formularios directo en la plantilla parece ser más fácil al principio, pero si se tiene un formulario muy complejo es mejor hacerlo con formularios reactivos. Además parece que los formularios de plantilla serán deprecados en versiones futuras de Angular.
@@ -28,18 +27,18 @@ Hacer formularios directo en la plantilla parece ser más fácil al principio, p
 Lo primero que hay que hacer es añadir el módulo de formularios reactivos a nuestro módulo.
 
 ```javascript
-import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { ReactiveFormsModule } from '@angular/forms';
+import { NgModule } from "@angular/core"
+import { BrowserModule } from "@angular/platform-browser"
+import { ReactiveFormsModule } from "@angular/forms"
 
-import { AppComponent }  from './app.component';
+import { AppComponent } from "./app.component"
 
 @NgModule({
-  imports:      [ BrowserModule, ReactiveFormsModule ],
-  declarations: [ AppComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [BrowserModule, ReactiveFormsModule],
+  declarations: [AppComponent],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 Ya que tenemos el módulo importado, tendremos todas las herramientas para nuestro formulario dinámico disponibles en nuestra aplicación.
@@ -58,7 +57,7 @@ constructor(private fb: FormBuilder) {}
 Y el `FormGroup` sólo lo definimos como una variable en el componente.
 
 ```javascript
-formulario: FormGroup;
+formulario: FormGroup
 ```
 
 Después, usando el método de `ngOnInit()`, mandamos llamar a la función que va a crear el formulario. Esta función se puede llamar como sea, yo la llamé `crearFormulario` porque soy mega original.
@@ -71,12 +70,11 @@ crearFormulario() {
 }
 ```
 
-Si este fuera un formulario normal, con esto ya tendríamos un formulario con un campo, pero queremos un formulario dinámico así que hay que seguir. 
+Si este fuera un formulario normal, con esto ya tendríamos un formulario con un campo, pero queremos un formulario dinámico así que hay que seguir.
 
 ### ¿Cómo se hace un formulario dinámico?
 
 Ahora es tiempo de introducir otra herramienta del módulo de formularios reactivos, se llama `FormArray`. Un `FormArray` es un arreglo de `FormControl`. Se comporta muy parecido a un arreglo normal y tiene ciertos métodos propios que hace muy sencillo agregar y quitar elementos del mismo. Para usarlo vamos a modificar nuestro método `crearFormulario`.
-
 
 ```javascript
 crearFormulario() {
@@ -109,7 +107,7 @@ anadirExperienciaLaboral() {
     puesto: new FormControl(''),
     descripcion: new FormControl('')
   });
-  
+
   this.experienciaLaboral.push(trabajo);
 }
 ```
@@ -130,7 +128,7 @@ Una cosa que me tuvo atorada mucho tiempo, fue olvidar poner el nombre del arreg
 <form [formGroup]="formulario">
   <div formArrayName="experienciaLaboral">
     <div *ngFor="let trabajo of experienciaLaboral.controls">
-      <input>
+      <input />
     </div>
   </div>
 </form>
@@ -192,7 +190,7 @@ borrarTrabajo(indice: number) {
 Se podrán dar cuenta que la función que cree se llama `borrarTrabajo` y que recibe un índice. Este índice es el mismo índice que tiene el grupo en el arreglo y para conseguirlo desde la plantilla hay que modificar nuestro `*ngFor` de la siguiente manera:
 
 ```html
-<div *ngFor="let trabajo of experienciaLaboral.controls; let i = index;">
+<div *ngFor="let trabajo of experienciaLaboral.controls; let i = index;"></div>
 ```
 
 Esa variable `i` va a contener el índice, lo que le va a decir al método `removeAt` cual elemento del arreglo tiene que borrar.
@@ -219,6 +217,6 @@ Aquí abajo les dejo el proyecto final en Glitch y lo estaré usando como base p
   </iframe>
 </div>
 
-----------
+---
 
 Espero que este pequeño ejemplo les sirva para entender mejor los formularios reactivos y dinámicos. Son herramientas muy útiles para hacer aplicaciones con funcionalidades más complejas. En la siguiente parte escribiré sobre validación y como crear validaciones dinámicas y como aplicarlas a diferentes partes del formulario.

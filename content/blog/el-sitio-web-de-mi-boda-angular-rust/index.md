@@ -42,7 +42,7 @@ Va sin recalcar que tenemos excepciones para invitados que no saben o que no tie
 
 Para el backend, todo fue manejaod por mi prometido así que no entraré en muchos detalles.
 
-El lenguaje de programación fue Rust porque es el lenguaje que está usando ahora. 
+El lenguaje de programación fue Rust porque es el lenguaje que está usando ahora.
 
 El stack del backend terminó así:
 
@@ -81,7 +81,7 @@ Además de que ya viene con diseño móvil que siempre es un viacrucis incluir.
 
 ![Plantilla Squarespace about](./squarespace-about.png)
 
-*Plantilla [Morena](https://morena-demo.squarespace.com/) de Squarespace*
+_Plantilla [Morena](https://morena-demo.squarespace.com/) de Squarespace_
 
 A partir del diseño creamos las demás páginas que no estaban definidas.
 
@@ -91,7 +91,7 @@ No tiene nada de malo reproducir un diseño ya creado si no eres bueno en diseñ
 
 Jugué con la idea de hacer el frontend con React y Gatsby pero la verdad es que me siento mucho más cómoda con Angular. Puedo resolver problemas mejor y no tengo que sufrir tanto conectándome al backend.
 
-Además de que estilizar Angular es algo que es un sueño cuando lo haces con SASS. Es mi tech stack favorito y me ha servido bien varios años ya. 
+Además de que estilizar Angular es algo que es un sueño cuando lo haces con SASS. Es mi tech stack favorito y me ha servido bien varios años ya.
 
 El mapa del sitio quedó de la siguiente manera:
 
@@ -126,7 +126,6 @@ El flujo que tenemos es el siguiente:
 Como lo mencioné al principio, necesitamos traducciones para el sitio. Tenía muchas ganas de usar las traducciones nativas de Angular pero me hubiera tomado mucho tiempo configurarlas.
 
 Decidí ir por un paquete que usé mucho tiempo en mi trabajo anterior llamado [@ngx-translate/core](https://github.com/ngx-translate/core). Este paquete me permite generar variables y mantener los idiomas con base en archivos json. La configuración es muy corta y maneja el cambio de idioma de inmediato y a nivel de aplicación.
-
 
 ### El producto terminado
 

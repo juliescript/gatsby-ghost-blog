@@ -21,12 +21,15 @@ El caso clásico para un validador personalizado es el de checar que un formular
 Para crear este formulario vamos a usar una forma reactiva:
 
 ```javascript
-this.form =  this.fb.group({
-  'password':  ['',  Validators.required],
-  'confirmarPassword':  ['',  Validators.required]
-},  {
-  validators: validarQueSeanIguales
-});
+this.form = this.fb.group(
+  {
+    password: ["", Validators.required],
+    confirmarPassword: ["", Validators.required],
+  },
+  {
+    validators: validarQueSeanIguales,
+  }
+)
 ```
 
 En este caso estoy declarando dos campos en el formulario, ambos deben de ser requeridos y después el grupo de campos va a tener una validación para ver que sean iguales.
@@ -35,15 +38,25 @@ Ahora toca hacer una plantilla sencilla para mostrar nuestros campos:
 
 ```html
 <form [formGroup]="form">
-	<mat-form-field>
-		<input  matInput  type="password" formControlName="password"  placeholder="Contraseña">
-	</mat-form-field>
+  <mat-form-field>
+    <input
+      matInput
+      type="password"
+      formControlName="password"
+      placeholder="Contraseña"
+    />
+  </mat-form-field>
 
-	<br>
+  <br />
 
-	<mat-form-field>
-		<input  matInput  type="password" formControlName="confirmarPassword"  placeholder="Confirmar Contraseña">
-	</mat-form-field>
+  <mat-form-field>
+    <input
+      matInput
+      type="password"
+      formControlName="confirmarPassword"
+      placeholder="Confirmar Contraseña"
+    />
+  </mat-form-field>
 </form>
 ```
 
@@ -52,16 +65,18 @@ Ahora toca hacer una plantilla sencilla para mostrar nuestros campos:
 El siguiente paso es escribir nuestra función de validación. Esto lo voy a hacer en un archivo separado llamado `app.validator.ts`, me gusta mucho usar la convención `<nombre_del_componente>.validator.ts` para denotar mis validadores, pero depende del caso y la necesidad del proyecto. A veces los validadores se pueden llegar a compartir entre componentes, por lo cual es mejor idea llamarlos de acuerdo a lo que vayan a validar. También cabe notar que pueden haber varias funciones de validación dentro de un mismo archivo de validadores.
 
 ```javascript
-import  {  FormGroup,  ValidationErrors,  ValidatorFn  }  from  '@angular/forms';
+import { FormGroup, ValidationErrors, ValidatorFn } from "@angular/forms"
 
-export  const validarQueSeanIguales:  ValidatorFn  =  (control:  FormGroup):  ValidationErrors  |  null  =>  {
-	const password = control.get('password');
-	const confirmarPassword = control.get('confirmarPassword');
+export const validarQueSeanIguales: ValidatorFn = (
+  control: FormGroup
+): ValidationErrors | null => {
+  const password = control.get("password")
+  const confirmarPassword = control.get("confirmarPassword")
 
-	return password.value === confirmarPassword.value
-		?  null
-		:  {  'noSonIguales':  true  };
-};
+  return password.value === confirmarPassword.value
+    ? null
+    : { noSonIguales: true }
+}
 ```
 
 ### ¿Qué está pasando aquí?
@@ -81,6 +96,7 @@ Podemos combinar el resultado de nuestro validador con el estado de los campos d
 En Angular, los campos de un formulario tienen 4 estados: `pristine`, `touched`, `untouched` y `dirty`.
 
 En resumen quedan algo así:
+
 - `pristine` - No se ha tenido interacción alguna con el campo
 - `untouched` - Si pusiste el cursor o fuiste al campo con la tecla de tabulador, sólo se activa cuando se llega al campo
 - `touched` - Si ya te fuiste del campo, ya cambiaste el cursor de lugar o seguiste a los demás campos
@@ -109,7 +125,7 @@ Así que cuando las contraseñas no coinciden, se va a mostrar un bonito mensaje
 Incluso si queremos ir un paso más allá, podemos usar el estatus del formulario para bloquear un botón de `Enviar` y una vez que nuestra forma esté libre de errores, habilitarlo y dejar al usuario enviar su formulario.
 
 ```html
-<button  mat-raised-button [disabled]="!form.valid">Enviar</button>
+<button mat-raised-button [disabled]="!form.valid">Enviar</button>
 ```
 
 Hay muchas otras formas para jugar con mensajes de error, clases, habilitar y deshabilitar campos y botones. Todo depende del formulario con el que se esté trabajando y las condiciones que necesita.
@@ -117,6 +133,5 @@ Hay muchas otras formas para jugar con mensajes de error, clases, habilitar y de
 Como siempre, acá les dejo un ejemplo en StackBlitz de este pequeño tutorial:
 
 <iframe width="590" height="600" src="https://stackblitz.com/edit/angular-6ec4zm?embed=1&file=src/app/app.component.ts"></iframe>
-
 
 En el siguiente tutorial, voy a hacer un formulario dinámico con varios tipos de validaciones para que vean como se pueden combinar.

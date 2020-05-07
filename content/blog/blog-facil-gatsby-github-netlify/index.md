@@ -2,20 +2,20 @@
 title: ¿Cómo hacer un blog fácil con GastbyJS, GitHub y Netlify?
 date: "2019-10-01T13:42"
 description: En este post te cuento como es que construí este blog. Te cuento como usé GatsbyJS y sus plantillas para hacer este sencillo sitio y como funciona Netlify junto con GitHub para ponerlo en línea. Los pasos son sencillos para empezar, pero como siempre, los detalles son lo más difícil.
-tags: ["react", "gatsby", ]
+tags: ["react", "gatsby"]
 ---
 
-*O ¿cómo fue que hice este blog?*
+_O ¿cómo fue que hice este blog?_
 
 **Disclaimer:** este blog es un trabajo en progreso y siempre lo será. No considero que sea un sitio web terminado ni personalizado pero igual y hay alguien como yo que nunca ha probado esto y se le hace interesante.
 
 ## Pre-requisitos
 
- - Tener la versión más reciente de Node instalada. Al momento de escribir este post, yo tengo la 11.9.0 en mi compu.
- - Tener instalado `npm` que si ya tienes Node, seguro tienes npm instalado.
- - Tener una cuenta de [GitHub](https://github.com)
- - Tener una cuenta de [Netlify](https://netflify.com)
- - Tener tu editor de código favorito. Actualmente uso VS Code en mi máquina personal pero para el trabajo uso IntelliJ.
+- Tener la versión más reciente de Node instalada. Al momento de escribir este post, yo tengo la 11.9.0 en mi compu.
+- Tener instalado `npm` que si ya tienes Node, seguro tienes npm instalado.
+- Tener una cuenta de [GitHub](https://github.com)
+- Tener una cuenta de [Netlify](https://netflify.com)
+- Tener tu editor de código favorito. Actualmente uso VS Code en mi máquina personal pero para el trabajo uso IntelliJ.
 
 ## GatsbyJS
 
@@ -39,7 +39,7 @@ Empezar un proyecto nuevo es también cuestión de una línea de comando. En el 
 gatsby new <nombre-de-tu-proyecto>
 ```
 
-Por supuesto que tienes que sustituir el `<nombre-de-tu-proyecto>` por el nombre que tú quieras. 
+Por supuesto que tienes que sustituir el `<nombre-de-tu-proyecto>` por el nombre que tú quieras.
 
 Después de esto puedes cambiarte al directorio del proyecto y empezar a desarrollar con el siguiente comando:
 
@@ -54,7 +54,7 @@ La verdad yo intenté hacer este blog sin plantilla pero no pude. Hay muchos con
 
 ### Usar una plantilla
 
-Algo muy padre de Gatsby es que la comunidad ya se encargó de hacer plantillas, o `starters` para que puedas tener la funcionalidad básica de una aplicación y te encargues de estilizar y poner contenido. 
+Algo muy padre de Gatsby es que la comunidad ya se encargó de hacer plantillas, o `starters` para que puedas tener la funcionalidad básica de una aplicación y te encargues de estilizar y poner contenido.
 
 Para este sitio usé la plantilla de blog que se encuentra en [este repositorio](https://github.com/gatsbyjs/gatsby-starter-blog).
 
@@ -67,7 +67,7 @@ gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
 
 Este comando lo que hace es indicarle a Gatsby que necesita la plantilla para crear el sitio. La ventaja de la plantilla es que ya trae varias cosas que se necesitan en un blog como el manejo de la estructura de los posts, el listado de la página principal, plugin para Google Analytics y la instalación de los scripts necesarios para compartir tu página en redes sociales de forma correcta.
 
-No es difícil hacerlo por tu cuenta y hay muchos tutoriales para hacerlo. Aquí te dejo la [muestra de uno en inglés](https://blog.bitsrc.io/build-your-own-blog-using-gatsby-and-react-a1255a5ab086). 
+No es difícil hacerlo por tu cuenta y hay muchos tutoriales para hacerlo. Aquí te dejo la [muestra de uno en inglés](https://blog.bitsrc.io/build-your-own-blog-using-gatsby-and-react-a1255a5ab086).
 
 Personalmente, me latió más hacerlo con la plantilla para sacar el sitio más rápido sin perderme en la infinidad del diseño. Aunque no lo crean, el diseño no se me da y pues no quería dejar de publicar este proyecto sólo por cuestiones estéticas.
 
@@ -76,17 +76,12 @@ Claro que la ventaja de hacer el tuyo propio es poderle poner lo que quieras, pe
 ## La estructura del proyecto
 
 El proyecto viene dividido en varias partes, las que voy a mencionar en esta entrada son:
+
 ```md
- - content
-	 - assets
-	 - blog
- - src
-	 - components
-	 - pages
-	 - templates
-	 - utils
-	 - gatsby-config.js
+- content - assets - blog
+- src - components - pages - templates - utils - gatsby-config.js
 ```
+
 La parte donde vamos a escribir y guardar las imágenes está en `content`.
 
 Dentro de la carpeta de `blog` va a existir un folder por cada entrada que queramos escribir. Dentro de la carpeta existirá un archivo llamado `index.md` y las imágenes que queramos incluir en esa entrada.
@@ -103,23 +98,23 @@ Por ahora no vamos a modificar estos archivos, con excepción de `bio.js`. Ahí 
 
 ### Estilizar
 
-Si hay algo que ha sido mi dolor de cabeza con Gatsby, eso ha sido estilizar. 
+Si hay algo que ha sido mi dolor de cabeza con Gatsby, eso ha sido estilizar.
 
 El proyecto básico no viene con algún tipo de sistema para estilizar con CSS integrado. Entonces ahí es decisión tuya decidir que usar. Agregar estilos se puede hacer en cada componente, con hojas de CSS o con sistemas más complejos como [emotion](https://emotion.sh/docs/introduction) o [styled-components](https://www.styled-components.com/).
 
-En el caso del blog starter, todo viene con base en una dependencia llamada [Typography Theme Wordpress 2016](https://www.npmjs.com/package/typography-theme-wordpress-2016). Esta dependencia es un tema de un sistema llamado [Typography.JS](https://github.com/kyleamathews/typography.js). 
+En el caso del blog starter, todo viene con base en una dependencia llamada [Typography Theme Wordpress 2016](https://www.npmjs.com/package/typography-theme-wordpress-2016). Esta dependencia es un tema de un sistema llamado [Typography.JS](https://github.com/kyleamathews/typography.js).
 
-La buena noticia es que es posible sobrescribir los estilos. En el archivo de `typography.js`. 
+La buena noticia es que es posible sobrescribir los estilos. En el archivo de `typography.js`.
 
-Ahí se encuentra un objeto que se ve algo así: 
+Ahí se encuentra un objeto que se ve algo así:
 
 ```js
-Wordpress2016.overrideThemeStyles  =  ()  => {
-	return {
-		"a.gatsby-resp-image-link": {
-			boxShadow: `none`,
-		},
-	}
+Wordpress2016.overrideThemeStyles = () => {
+  return {
+    "a.gatsby-resp-image-link": {
+      boxShadow: `none`,
+    },
+  }
 }
 ```
 
