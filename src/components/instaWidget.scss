@@ -2,12 +2,13 @@
 
 .instaPictures {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, minmax(8rem, 1fr));
+  grid-auto-rows: 1fr;
   gap: 15px;
   max-width: 800px;
   width: 80%;
   margin: 40px auto;
+  justify-items: stretch;
 
   .instaPictureFrame {
     width: 100%;
@@ -16,9 +17,14 @@
     border: 2px solid white;
     padding: 0.5em;
     background: $rose-gold;
+    align-self: stretch;
 
     .emptyFrame {
-      background: $accent-pink;
+      background: $another-accent-pink;
+      display: block;
+      width: 100%;
+      height: 0;
+      padding-bottom: 100%;
     }
 
       .instaPictureLink {
