@@ -21,8 +21,8 @@ const IndexPage = ({ data }) => {
           <article className="col-auto border-pink-200 border-4 p-5" key={node.id}>
             <ul className="flex justify-start space-x-2 flex-wrap my-2">
               {
-                node.tags.map(({name}) => (
-                <li className="flex-none bg-pink-100 text-gray-500 text-xs uppercase block px-1 rounded-sm">{name}</li>
+                node.tags.map(({name, id}) => (
+                <li className="flex-none bg-pink-100 text-gray-500 text-xs uppercase block px-1 rounded-sm" key={id}>{name}</li>
                 ))
               }
             </ul>
@@ -53,6 +53,7 @@ export const indexQuery = graphql`
             excerpt
             tags {
               name
+              id
             }
           }
         }
