@@ -15,6 +15,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -27,6 +28,15 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-ghost`,
+      options: {
+          apiUrl: `https://api.juliescript.dev`,
+          contentApiKey: `0be2bdc6c8a504a3e2e62bbfdc`,
+          version: `v3` // Ghost API version, optional, defaults to "v3".
+                        // Pass in "v2" if your Ghost install is not on 3.0 yet!!!
+      }
+   }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
