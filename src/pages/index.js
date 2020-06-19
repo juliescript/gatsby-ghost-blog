@@ -26,7 +26,9 @@ const IndexPage = ({ data }) => {
                 ))
               }
             </ul>
-            <h2 className="text-xl font-hairline text-gray-600 font-serif my-5"><Link to={`/${node.slug}/`}>{node.title}</Link></h2>
+
+            <p className="text-xs font-hairline font-sans text-gray-500 uppercase mt-5 tracking-widest">{ node.published_at }</p>
+            <h2 className="text-xl font-hairline text-gray-600 font-serif mb-5"><Link to={`/${node.slug}/`}>{node.title}</Link></h2>
             <p className="text-base font-hairline font-sans text-gray-700">
               {node.excerpt}
             </p>
@@ -42,14 +44,14 @@ export default IndexPage
 
 export const indexQuery = graphql`
   query {
-    allGhostPost(sort: {fields: created_at, order: ASC}, filter: {title: {ne: "Data schema"}}) {
+    allGhostPost(sort: {fields: published_at, order: DESC}, filter: {title: {ne: "Data schema"}}) {
         edges {
           node {
             id
             feature_image
             slug
             title
-            created_at
+            published_at(formatString: "DD.MM.YYYY")
             excerpt
             tags {
               name
