@@ -42,7 +42,7 @@ export default IndexPage
 
 export const indexQuery = graphql`
   query {
-      allGhostPost {
+    allGhostPost(sort: {fields: created_at, order: ASC}, filter: {title: {ne: "Data schema"}}) {
         edges {
           node {
             id

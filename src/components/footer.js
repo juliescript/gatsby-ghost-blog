@@ -1,4 +1,4 @@
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import React from "react"
 
 const Footer = ({ siteTitle }) => {
@@ -20,30 +20,13 @@ const Footer = ({ siteTitle }) => {
   const pages = pageQuery.allGhostPage.edges
 
   return (
-    <header className="bg-pink-100 w-screen">
-      <nav className="flex flex-row flex-no-wrap justify-start space-x-10 mx-10">
-        <li className="text-gray-600 uppercase h-10 self-stretch leading-10 list-none" key={siteTitle}>
-          <Link
-            to="/"
-          >
-            Inicio
-          </Link>
-        </li>
-        {
-          pages.map(({node}) => (
-            <li className="text-gray-600 uppercase h-10 self-stretch leading-10 list-none" key={node.id}>
-              <Link
-                to={node.slug}
-              >
-                {node.title}
-              </Link>
-            </li>
-          )
-          )
-        }
-       
-      </nav>
-    </header>
+    <footer className="bg-pink-300 w-screen h-10 py-10 text-gray-100">
+      <section className="container mx-auto">
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      </section>
+    </footer>
   )
 }
 

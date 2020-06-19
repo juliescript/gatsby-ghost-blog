@@ -5,19 +5,16 @@ const Header = ({ siteTitle }) => {
 
   const pageQuery = useStaticQuery(graphql`
     query {
-      allGhostPage {
-        edges {
-          node {
-            id
-            title
-            slug
-          }
+      ghostSettings {
+        navigation {
+          label
+          url
         }
       }
     }
   `)
 
-  const pages = pageQuery.allGhostPage.edges
+  const pages = pageQuery.ghostSettings.navigation
 
   return (
     <header className="bg-pink-100 w-screen">
@@ -30,12 +27,12 @@ const Header = ({ siteTitle }) => {
           </Link>
         </li>
         {
-          pages.map(({node}) => (
-            <li className="text-gray-600 uppercase h-10 self-stretch leading-10 list-none" key={node.id}>
+          pages.map(nav => (
+            <li className="text-gray-600 uppercase h-10 self-stretch leading-10 list-none" key={nav.label}>
               <Link
-                to={`/${node.slug}/`}
+                to={`${nav.url}`}
               >
-                {node.title}
+                {nav.label}
               </Link>
             </li>
           )
