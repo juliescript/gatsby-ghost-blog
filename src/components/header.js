@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => {
           pages.map(({node}) => (
             <li className="text-gray-600 uppercase h-10 self-stretch leading-10 list-none" key={node.id}>
               <Link
-                to={node.slug}
+                to={`/${node.slug}/`}
               >
                 {node.title}
               </Link>
