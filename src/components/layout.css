@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.juliescript-post section {
+    @apply text-base text-gray-700 font-hairline my-10;
+}
+
+.juliescript-post h2 {
+    @apply text-2xl text-gray-600 font-serif my-5 border-b-2 border-pink-200;
+}
+
+.juliescript-post h3 {
+    @apply text-xl text-gray-600 font-serif my-5;
+}
+
+.juliescript-post h4 {
+    @apply text-lg text-gray-600 font-serif my-5;
+}
+
+.juliescript-post p {
+    @apply my-4;
+}
+
+.juliescript-post ol {
+    @apply list-decimal mx-6;
+}
+
+.juliescript-post ul {
+    @apply list-disc mx-6;
+}
+
+.juliescript-post a {
+    @apply text-pink-500;
+}
+
+.juliescript-post img {
+    @apply my-10;
+}
+
+.juliescript-post .kg-image-card{
+    @apply mx-auto object-contain max-w-3xl;
+}
+
+.juliescript-post .kg-gallery-container {
+    @apply flex flex-col my-10;
+}
+
+
+.juliescript-post .kg-gallery-row {
+    @apply flex justify-center my-2;
+}
+
+.juliescript-post .kg-gallery-image {
+    @apply object-cover flex-auto mx-2 self-stretch;
+}
+
+.juliescript-post .kg-gallery-image img {
+    @apply object-cover h-full m-0;
+}

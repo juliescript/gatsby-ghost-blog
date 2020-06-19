@@ -23,15 +23,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.ghostSettings.title} />
-      <div className="container mx-auto box-border">
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      <Header siteTitle={data.ghostSettings.title}/>
+      <main className="container mx-auto">{children}</main>
+      <footer>
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      </footer>
     </>
   )
 }
