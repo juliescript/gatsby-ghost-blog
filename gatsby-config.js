@@ -1,3 +1,6 @@
+const generateRSSFeed = require(`./src/utils/rss/generate-feed`)
+const config = require(`./src/utils/siteConfig`)
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
