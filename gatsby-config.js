@@ -1,3 +1,6 @@
+const generateRSSFeed = require(`./src/utils/rss/generate-feed`)
+const config = require(`./src/utils/siteConfig`)
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -31,14 +34,105 @@ module.exports = {
     {
       resolve: `gatsby-source-ghost`,
       options: {
-          apiUrl: `https://api.juliescript.dev`,
-          contentApiKey: `0be2bdc6c8a504a3e2e62bbfdc`,
-          version: `v3` // Ghost API version, optional, defaults to "v3".
-                        // Pass in "v2" if your Ghost install is not on 3.0 yet!!!
-      }
-   }
+        apiUrl: `https://api.juliescript.dev`,
+        contentApiKey: `0be2bdc6c8a504a3e2e62bbfdc`,
+        version: `v3`, // Ghost API version, optional, defaults to "v3".
+        // Pass in "v2" if your Ghost install is not on 3.0 yet!!!
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+              allGhostSettings {
+                  edges {
+                      node {
+                          title
+                          description
+                      }
+                  }
+              }
+          }
+        `,
+        feeds: [generateRSSFeed(config)],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-advanced-sitemap`,
+      options: {
+        query: `
+          {
+              allGhostPost {
+                  edges {
+                      node {
+                          id
+                          slug
+                          updated_at
+                          created_at
+                          feature_image
+                      }
+                  }
+              }
+              allGhostPage {
+                  edges {
+                      node {
+                          id
+                          slug
+                          updated_at
+                          created_at
+                          feature_image
+                      }
+                  }
+              }
+              allGhostTag {
+                  edges {
+                      node {
+                          id
+                          slug
+                          feature_image
+                      }
+                  }
+              }
+              allGhostAuthor {
+                  edges {
+                      node {
+                          id
+                          slug
+                          profile_image
+                      }
+                  }
+              }
+          }`,
+        mapping: {
+          allGhostPost: {
+            sitemap: `posts`,
+          },
+          allGhostTag: {
+            sitemap: `tags`,
+          },
+          allGhostAuthor: {
+            sitemap: `authors`,
+          },
+          allGhostPage: {
+            sitemap: `pages`,
+          },
+        },
+        exclude: [
+          `/dev-404-page`,
+          `/404`,
+          `/404.html`,
+          `/offline-plugin-app-shell-fallback`,
+        ],
+        createLinkInHead: true,
+        addUncaughtPages: true,
+      },
+    },
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-force-trailing-slashes`,
+    `gatsby-plugin-offline`,
   ],
 }
