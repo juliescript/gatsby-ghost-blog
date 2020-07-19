@@ -36,9 +36,42 @@ module.exports = {
           version: `v3` // Ghost API version, optional, defaults to "v3".
                         // Pass in "v2" if your Ghost install is not on 3.0 yet!!!
       }
-   }
+   },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+              allGhostSettings {
+                  edges {
+                      node {
+                          title
+                          description
+                      }
+                  }
+              }
+          }
+        `,
+        feeds: [generateRSSFeed(config)],
+      },
+    },
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-force-trailing-slashes`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-148895753-1`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-env-variables`,
+      options: {
+        whitelist: ["INSTAGRAM_TOKEN"],
+      },
+    },
   ],
 }
