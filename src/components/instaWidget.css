@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.instaPictures {
+    @apply grid grid-cols-4 gap-4 row-span-1 max-w-full;
+}
+
+.instaPictures::before {
+    content: '';
+    width: 0;
+    padding-bottom: 100%;
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+}
+
+.instaPictures > *:first-child{
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+}
+
+.instaPictureFrame {
+    @apply w-full h-full box-border border-white border-2 p-2 bg-pink-200;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.emptyFrame {
+    @apply block bg-pink-200 w-full h-0;
+    padding-bottom: 100%;
+}
+
+.instaPictureLink {
+    @apply block w-full h-full;
+}
+
+.instaPicture {
+    @apply object-cover w-full h-full;
+}

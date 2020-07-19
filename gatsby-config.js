@@ -1,3 +1,6 @@
+const generateRSSFeed = require(`./src/utils/rss/generate-feed`)
+const config = require(`./src/utils/siteConfig`)
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -31,14 +34,35 @@ module.exports = {
     {
       resolve: `gatsby-source-ghost`,
       options: {
-          apiUrl: `https://api.juliescript.dev`,
-          contentApiKey: `0be2bdc6c8a504a3e2e62bbfdc`,
-          version: `v3` // Ghost API version, optional, defaults to "v3".
-                        // Pass in "v2" if your Ghost install is not on 3.0 yet!!!
-      }
-   }
+        apiUrl: `https://api.juliescript.dev`,
+        contentApiKey: `0be2bdc6c8a504a3e2e62bbfdc`,
+        version: `v3`, // Ghost API version, optional, defaults to "v3".
+        // Pass in "v2" if your Ghost install is not on 3.0 yet!!!
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+              allGhostSettings {
+                  edges {
+                      node {
+                          title
+                          description
+                      }
+                  }
+              }
+          }
+        `,
+        feeds: [generateRSSFeed(config)],
+      },
+    },
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-force-trailing-slashes`,
+    `gatsby-plugin-offline`,
   ],
 }

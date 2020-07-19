@@ -22,7 +22,6 @@ function SEO({ description, lang, meta, title }) {
           url
           description
           facebook
-          icon
         }
         ghostAuthor {
           name
