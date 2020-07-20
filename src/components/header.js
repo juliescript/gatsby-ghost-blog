@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => {
   const github = pageQuery.github.publicURL
 
   return (
-    <header className="bg-pink-100 w-screen flex justify-between">
+    <header className="bg-pink-100 w-full flex justify-between">
       <nav className="flex flex-row flex-no-wrap justify-start space-x-10 mx-10">
         <li
           className="text-gray-600 uppercase h-10 self-stretch leading-10 list-none"

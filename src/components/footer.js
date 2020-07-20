@@ -4,7 +4,7 @@ import Bio from "./bio"
 
 const Footer = () => {
   return (
-    <footer className="bg-pink-300 w-screen h-full py-10 text-gray-100">
+    <footer className="bg-pink-300 w-full h-full py-10 text-gray-100">
       <section className="container mx-auto">
         <Bio />
         <h2 className="text-2xl text-white font-serif my-5 border-b-2 border-pink-200">

@@ -5905,6 +5905,11 @@ gatsby-plugin-catch-links@2.3.4:
     "@babel/runtime" "^7.10.2"
     escape-string-regexp "^1.0.5"
 
+gatsby-plugin-env-variables@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-env-variables/-/gatsby-plugin-env-variables-1.0.2.tgz#db8b3bde03137cf062d7724dbc5e56e9308874f5"
+  integrity sha512-GfzenmXxiahs0TOFrlDMtHFBCBLvYBkoTOcrkRvinYg/4VsXe65kb0XjX/6ym7FU3SiHgcaFBERO5ovrILjnRg==
+
 gatsby-plugin-feed@2.5.4:
   version "2.5.4"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.5.4.tgz#5d94956137496b31d8d0b4b2ff702a8da8694783"
@@ -5922,6 +5927,14 @@ gatsby-plugin-force-trailing-slashes@1.0.4:
   integrity sha512-agzlGb1wou8lAMCfiLdKRgGCFrtsqMTANye3uUHbViHV1hPogh3MALlh5TzUMQLXTdlhRdoOtLedqCfLZF1/IQ==
   dependencies:
     "@babel/runtime" "7.0.0-beta.51"
+
+gatsby-plugin-google-analytics@^2.1.19:
+  version "2.3.11"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.3.11.tgz#201769a27ae9ca5852c25af004d83635ef1e1f14"
+  integrity sha512-4ktlF13r/o2cFf6EBcwlKwl0lNedVUjGpk8MJFZM6h54QIflwBxDXVS5ku8YrZ/2VfhY+7+pVS5U0yluYj8iYg==
+  dependencies:
+    "@babel/runtime" "^7.10.3"
+    minimatch "3.0.4"
 
 gatsby-plugin-manifest@^2.4.11:
   version "2.4.18"
@@ -8848,7 +8861,7 @@ minimatch@3.0.3:
   dependencies:
     brace-expansion "^1.0.0"
 
-minimatch@^3.0.3, minimatch@^3.0.4:
+minimatch@3.0.4, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
