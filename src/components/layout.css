@@ -58,3 +58,12 @@
 .juliescript-post .kg-gallery-image img {
     @apply object-cover h-full m-0;
 }
+
+/**
+ * If you already use line highlighting
+ */
+
+/* Adjust the position of the line numbers */
+.gatsby-highlight pre[class*="language-"].line-numbers {
+    padding-left: 2.8em;
+  }

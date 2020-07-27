@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.ghostSettings.title}/>
-      <main className="container mx-auto">{children}</main>
+      <main className="container mx-auto w-9/12">{children}</main>
       <Footer/>
     </>
   )

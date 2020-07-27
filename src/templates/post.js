@@ -14,7 +14,7 @@ const Post = ({ data }) => {
                 ) : null}
                 <h1 className="text-5xl font-hairline text-center text-gray-600 font-serif mt-10">{post.title}</h1>
                 <p className="text-xs font-hairline font-sans text-gray-500 uppercase mt-5 tracking-widest mb-10 text-center">{ post.published_at }</p>
-                <section dangerouslySetInnerHTML={{__html: post.html}}></section>
+                <section dangerouslySetInnerHTML={{__html: post.childHtmlRehype.html}}></section>
             </article>
         </Layout>
     )
@@ -29,6 +29,9 @@ export const postQuery = graphql`
             slug
             feature_image
             html
+            childHtmlRehype {
+                html
+            }
             published_at(formatString: "DD.MM.YYYY")
         }
     }

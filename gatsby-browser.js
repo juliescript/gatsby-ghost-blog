@@ -6,3 +6,5 @@
 
 // You can delete this file if you're not using it
 // custom typefaces
+
+require('./src/utils/material-light.css')
