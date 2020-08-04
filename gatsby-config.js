@@ -58,6 +58,7 @@ module.exports = {
               }
           }
         `,
+        title: 'Juliescript - otro blog de tecnología en español',
         feeds: [generateRSSFeed(config)],
       },
     },
