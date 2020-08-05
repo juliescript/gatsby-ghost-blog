@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .juliescript-post section {
-    @apply text-base text-gray-700 font-hairline my-10;
+    @apply text-base text-gray-700 font-light my-10;
 }
 
 .juliescript-post h2 {
