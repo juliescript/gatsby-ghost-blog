@@ -26,11 +26,15 @@ function SEO({ description, lang, meta, title }) {
         ghostAuthor {
           name
         }
+        favicon: file(relativePath: { eq: "favicon.png" }) {
+          publicURL
+        }
       }
     `
   )
 
   const metaDescription = description || site.ghostSettings.description
+  const favicon = site.favicon.publicURL
 
   return (
     <Helmet
@@ -73,7 +77,9 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link rel="icon" href={favicon}/>
+      </Helmet>
   )
 }
 
