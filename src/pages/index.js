@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
           <article className="col-auto border-pink-200 border-4 p-5" key={node.id}>
             <p className="text-xs font-hairline font-sans text-gray-500 uppercase mt-5 tracking-widest">{ node.published_at }</p>
             <h2 className="text-xl font-hairline text-gray-600 font-serif mb-5"><Link to={`/${node.slug}/`}>{node.title}</Link></h2>
-            <p className="text-base font-hairline font-sans text-gray-700">
+            <p className="text-base font-light font-sans text-gray-700">
               {node.excerpt}
             </p>
             <ul className="flex justify-start space-x-2 flex-wrap my-2">
