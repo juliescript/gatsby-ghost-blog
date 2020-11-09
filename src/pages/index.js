@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => {
         <h1 className="text-5xl uppercase font-hairline text-center text-gray-600 font-serif">{site.title}</h1>
         <p className="text-xs uppercase font-hairline text-center text-gray-600 font-sans tracking-widest">{site.description}</p>
       </section>
-      <section className="grid grid-cols-3 grid-flow-row gap-8 my-10">
+      <section className="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 grid-flow-row gap-8 my-10 ">
       {
         posts.map( ({ node }) => (
           <article className="col-auto border-pink-200 border-4 p-5" key={node.id}>

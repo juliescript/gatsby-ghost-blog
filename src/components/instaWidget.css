@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .instaPictures {
-    @apply grid grid-cols-4 gap-4 row-span-1 max-w-full;
+    @apply grid gap-4 row-span-1 max-w-full;
 }
 
 .instaPictures::before {
@@ -21,8 +21,6 @@
 
 .instaPictureFrame {
     @apply w-full h-full box-border border-white border-2 p-2 bg-pink-200;
-    max-width: 300px;
-    max-height: 300px;
 }
 
 .emptyFrame {
@@ -36,4 +34,22 @@
 
 .instaPicture {
     @apply object-cover w-full h-full;
+}
+
+@media(max-width: 640px) {
+    .instaPictures {
+        @apply  grid-cols-1;
+    }
+}
+
+@media(min-width: 768px) {
+    .instaPictures {
+        @apply grid-cols-2;
+    }
+}
+
+@media(min-width: 1024px) {
+    .instaPictures {
+        @apply grid-cols-4;
+    }
 }

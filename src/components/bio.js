@@ -18,9 +18,9 @@ const Bio = () => {
 
   return (
     <section className="bg-pink-200 p-3">
-      <div className="flex justify-around items-center content-center bg-white p-6">
+      <div className="flex justify-around items-center content-center bg-white p-6 flex-col md:flex-row">
         <img
-          className="h-32 w-32 rounded-full mx-auto mr-10 flex-shrink-0"
+          className="h-32 w-32 rounded-full mx-auto flex-shrink-0 sm:mb-4 md:mr-10 lg:mr-10"
           src={author.profile_image}
           alt={author.name}
         />
