@@ -1,5 +1,4 @@
 import React from "react"
-import InstaWidget from "./instaWidget"
 import Bio from "./bio"
 
 const Footer = () => {

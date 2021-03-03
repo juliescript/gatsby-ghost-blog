@@ -10,9 +10,6 @@ const Header = ({ siteTitle }) => {
           url
         }
       }
-      instagram: file(relativePath: { eq: "instagram.svg" }) {
-        publicURL
-      }
       twitter: file(relativePath: { eq: "twitter.svg" }) {
         publicURL
       }
@@ -23,7 +20,6 @@ const Header = ({ siteTitle }) => {
   `)
 
   const pages = pageQuery.ghostSettings.navigation
-  const instagram = pageQuery.instagram.publicURL
   const twitter = pageQuery.twitter.publicURL
   const github = pageQuery.github.publicURL
 
