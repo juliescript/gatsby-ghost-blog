@@ -10,9 +10,6 @@ const Header = ({ siteTitle }) => {
           url
         }
       }
-      instagram: file(relativePath: { eq: "instagram.svg" }) {
-        publicURL
-      }
       twitter: file(relativePath: { eq: "twitter.svg" }) {
         publicURL
       }
@@ -23,7 +20,6 @@ const Header = ({ siteTitle }) => {
   `)
 
   const pages = pageQuery.ghostSettings.navigation
-  const instagram = pageQuery.instagram.publicURL
   const twitter = pageQuery.twitter.publicURL
   const github = pageQuery.github.publicURL
 
@@ -51,17 +47,7 @@ const Header = ({ siteTitle }) => {
             target="_blank"
             rel="noopener noreferrer"
             className="block h-full w-full"
-            href={`https://instagram.com/juliescript`}
-          >
-            <img className="object-cover" src={instagram} alt="Instagram" />
-          </a>
-        </li>
-        <li className="mx-2 h-6 w-6">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block h-full w-full"
-            href={`https://twitter.com/juliescript`}
+            href={`https://twitter.com/juliescriptdev`}
           >
             <img className="object-cover" src={twitter} alt="Twitter" />
           </a>
