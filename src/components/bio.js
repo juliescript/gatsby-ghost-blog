@@ -30,13 +30,22 @@ const Bio = () => {
           </p>
           <ul className="flex justify-start">
             <li className="mr-6">
-              <a href="https://twitter.com/juliescriptdev" target="_blank" rel="noreferrer">
+              <a
+                href="https://twitter.com/juliescriptdev"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Twitter
               </a>
             </li>
             <li>
               <a href={author.website} target="_blank" rel="noreferrer">
                 GitHub
+              </a>
+            </li>
+            <li>
+              <a rel="me" href="https://mastodon.social/@juliescript">
+                Mastodon
               </a>
             </li>
           </ul>
