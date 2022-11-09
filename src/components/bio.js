@@ -43,11 +43,6 @@ const Bio = () => {
                 GitHub
               </a>
             </li>
-            <li>
-              <a rel="me" href="https://mastodon.social/@juliescript">
-                Mastodon
-              </a>
-            </li>
           </ul>
         </div>
       </div>
