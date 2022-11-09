@@ -34,12 +34,12 @@ module.exports = {
     {
       resolve: `gatsby-source-ghost`,
       options: {
-          apiUrl: `https://api.juliescript.dev`,
-          contentApiKey: `0be2bdc6c8a504a3e2e62bbfdc`,
-          version: `v3` // Ghost API version, optional, defaults to "v3".
-                        // Pass in "v2" if your Ghost install is not on 3.0 yet!!!
-      }
-   },
+        apiUrl: `https://api.juliescript.dev`,
+        contentApiKey: `0be2bdc6c8a504a3e2e62bbfdc`,
+        version: `v3`, // Ghost API version, optional, defaults to "v3".
+        // Pass in "v2" if your Ghost install is not on 3.0 yet!!!
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
@@ -58,7 +58,7 @@ module.exports = {
               }
           }
         `,
-        title: 'Juliescript - otro blog de tecnología en español',
+        title: "Juliescript - otro blog de tecnología en español",
         feeds: [generateRSSFeed(config)],
       },
     },
@@ -68,7 +68,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-148895753-1`,
+        trackingId: `G-Z6P7F4D558`,
       },
     },
     {
@@ -86,16 +86,16 @@ module.exports = {
     {
       resolve: `gatsby-transformer-rehype`,
       options: {
-          // 2. - Ensure these only apply to type
-          filter: (node) =>
-              node.internal.type === `GhostPost` ||
-              node.internal.type === `GhostPage`,
-          plugins: [
-              {
-                  // 3. - Add syntax highlight for code block.
-                  resolve: `gatsby-rehype-prismjs`,
-              },
-          ],
+        // 2. - Ensure these only apply to type
+        filter: node =>
+          node.internal.type === `GhostPost` ||
+          node.internal.type === `GhostPage`,
+        plugins: [
+          {
+            // 3. - Add syntax highlight for code block.
+            resolve: `gatsby-rehype-prismjs`,
+          },
+        ],
       },
     },
   ],
